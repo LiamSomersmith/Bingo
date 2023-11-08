@@ -6,7 +6,7 @@ class App(Tk):
     def __init__(self):
         super().__init__()
 
-# Handles the bingo board, the GUI
+# Handles the GUI and Game Logic
 class Board():
     def __init__(self):
         self.filename = "Phrases.txt"
